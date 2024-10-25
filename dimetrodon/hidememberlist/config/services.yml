@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autowire: true
+
+    dimetrodon.hidememberlist.listener:
+        class: dimetrodon\hidememberlist\event\main_listener
+        tags:
+            - { name: event.listener }
